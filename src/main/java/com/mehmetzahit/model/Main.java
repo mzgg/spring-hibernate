@@ -9,10 +9,8 @@ public class Main {
         return x + b + k;
     }
 
-
     public static void main(String[] args) {
         System.out.println("test");
         Main main = new Main();
     }
-
 }
