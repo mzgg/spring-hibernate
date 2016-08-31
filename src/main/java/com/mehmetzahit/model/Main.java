@@ -5,11 +5,14 @@ package com.mehmetzahit.model;
  */
 public class Main {
 
-    public int add(int x, int y) {
-        return x + y;
+    public int add(int x, int b, int k) {
+        return x + b + k;
     }
+
 
     public static void main(String[] args) {
-
+        System.out.println("test");
+        Main main = new Main();
     }
+
 }
